@@ -1,0 +1,17 @@
+minikube service servicename  -> to make it open in browser 
+
+service is a long run object in K8s
+service will have a stable ips
+
+we can attach services to pods
+
+pods will have labels, one or more, we will select those labels with selector to service
+
+
+how to make deployment with zero down time in k8s
+
+make a pod and service with label and selector, create one more pod with match label with previous one and with one extra label
+once two pods are created, change the selector to second pod in service
+
+
+

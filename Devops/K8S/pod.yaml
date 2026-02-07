@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name : pod-1
+  labels:
+    app: webapp
+spec:
+  containers:
+  - name: yash
+    image: yash6754/zomato:myproject
+
+    
